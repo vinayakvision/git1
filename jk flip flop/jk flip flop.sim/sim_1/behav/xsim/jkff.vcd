@@ -1,0 +1,70 @@
+$date
+   Sun Sep 15 20:13:03 2024
+$end
+
+$version
+  2024.1.2
+  $dumpfile ("jkff.vcd") 
+$end
+
+$timescale
+  1ps
+$end
+
+$scope module jkff_tb $end
+$var reg 2 ! jk [1:0] $end
+$var reg 1 " clk $end
+$var wire 1 # q $end
+$var wire 1 $ qb $end
+$upscope $end
+$scope module glbl $end
+$upscope $end
+$enddefinitions $end
+
+#0
+$dumpvars
+b0 !
+0"
+x#
+x$
+$end
+
+#2000
+1"
+
+#4000
+0"
+
+#5000
+b1 !
+
+#6000
+1"
+0#
+1$
+
+#8000
+0"
+
+#10000
+b10 !
+1"
+1#
+0$
+
+#12000
+0"
+
+#14000
+1"
+
+#15000
+b11 !
+
+#16000
+0"
+
+#18000
+1"
+0#
+1$

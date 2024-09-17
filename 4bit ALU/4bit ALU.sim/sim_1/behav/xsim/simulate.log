@@ -1,0 +1,10 @@
+Time resolution is 1 ps
+Time = 0, A = 0011, B = 0101, ALU_Sel = 000, ALU_Result = 1000, CarryOut = 0
+Time = 10, A = 1010, B = 0011, ALU_Sel = 001, ALU_Result = 0111, CarryOut = 0
+Time = 20, A = 1100, B = 1010, ALU_Sel = 010, ALU_Result = 1000, CarryOut = 0
+Time = 30, A = 1100, B = 1010, ALU_Sel = 011, ALU_Result = 1110, CarryOut = 0
+Time = 40, A = 1100, B = 1010, ALU_Sel = 100, ALU_Result = 0110, CarryOut = 0
+Time = 50, A = 1100, B = 1010, ALU_Sel = 101, ALU_Result = 0001, CarryOut = 0
+Time = 60, A = 0011, B = 1010, ALU_Sel = 110, ALU_Result = 0110, CarryOut = 0
+Time = 70, A = 0011, B = 1010, ALU_Sel = 111, ALU_Result = 0001, CarryOut = 0
+$finish called at time : 80 ns : File "D:/vivado projects/4bit ALU/4bit ALU.srcs/sim_1/new/4bit alu_tb.v" Line 76
